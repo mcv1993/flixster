@@ -19,6 +19,13 @@
 
  // Custom bootstrap variables must be set or imported *before* bootstrap.
 
+body {
+  background: image_url('fancy-cushion.png');
+  /* Impact-based sans serif stack */
+  font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans-serif;
+
+}
+
 h1, h2, h3, h4, h5, h6, .navbar {
   margin: 0;
 }
@@ -72,4 +79,11 @@ a.navbar-brand {
 
 .btn {
   border-radius: 0;
+}
+
+.feature {
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  color: white;
 }
