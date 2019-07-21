@@ -23,7 +23,6 @@ body {
   background: image_url('fancy-cushion.png');
   /* Impact-based sans serif stack */
   font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans-serif;
-
 }
 
 h1, h2, h3, h4, h5, h6, .navbar {
@@ -87,3 +86,13 @@ a.navbar-brand {
   padding-right: 5%;
   color: white;
 }
+
+.booyah-box {
+  -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  box-shadow: 1px 1px 2px 0 #d0d0d0;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+}
+
