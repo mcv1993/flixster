@@ -23,6 +23,7 @@ body {
   background: image_url('fancy-cushion.png');
   /* Impact-based sans serif stack */
   font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans-serif;
+  color: #e8edf1;
 }
 
 h1, h2, h3, h4, h5, h6, .navbar {
@@ -94,8 +95,34 @@ a.navbar-brand {
   background: #fff;
   border: 1px solid #ccc;
   border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  color: black;
 }
 
 .clr {
   clear:both;
+}
+
+.lesson {
+  background-color: black;
+  color: white;
+  margin-top: 10px;
+  height: 100px;
+}
+
+.section {
+  border: 1px solid;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  padding: 20px;
+}
+
+.lesson a {
+  color: white;
+  font-family: "Helvetica Neue", Helvetica;
+  font-weight: 100;
+  font-size: 15px;
+}
+
+.lesson a b {
+  font-weight: 100;
+  font-size: 25px;
 }
